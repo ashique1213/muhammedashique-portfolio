@@ -38,10 +38,10 @@
 <body class="main-layout">
    <!-- loader  -->
 
-   <!-- <div class="loader_bg">
+   <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="#" /></div>
    </div>
-    -->
+
    <!-- end loader -->
    <!-- header -->
    <header>
@@ -449,7 +449,7 @@
                <form id="post_form" name="myform" class="contact_form">
                   <div class="row">
                      <div class="col-md-12 ">
-                        <input class="contact_control" placeholder=" Name" type="text" required pattern="[A-Za-z\s]+" name="Name" title="Name should only contain letters and spaces.">
+                        <input class="contact_control" placeholder=" Name" type="text" required pattern="[A-Za-z\s]+" minlenght="5" maxlength="20" name="Name" title="Name should only contain letters and spaces.">
                      </div>
                      <div class="col-md-12">
                         <input class="contact_control" placeholder="Email" type="email" required name="Email" title="Please enter a valid email address.">
@@ -495,7 +495,7 @@
                </div>
                <div class="col-lg-2 col-md-4 col-sm-6  col-6 pt-4">
                   <ul class="link_icon">
-                     <li class="active"> <a href="index.html"> Home</a></li>
+                     <li class="active"> <a href="index.html">Home</a></li>
                      <li>
                         <a href="#about">
                            </i>About
